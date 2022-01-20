@@ -7,6 +7,11 @@ body {
   background: linear-gradient(to right,#000000, #22130c);
 }
 
-img {
+.logo-principal {
+  width: 500px;
+  text-align: center;
+}
+
+.opcoes img {
   width: 3.5em;
 }

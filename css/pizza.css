@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(to right,#000000, #22130c);
+}
+
+/*IMAGEM PRINCIPAL*/
+.logo-principal {
+  text-align: center;
+}
+
+/*FRASE DE INSTRUÇÃO PARA SELECIONAR UM TAMANHO DE PIZZA*/
+.label-phrase {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+/*ABA DE SELECIONAR O TAMANHO DAS PIZZAS*/
+.sizes {
+  text-align: center; 
+}
+
+.size-options {
+  padding: 1%;
+  border: 1px solid #662000;
+  border-radius: 5px;
+  background-color: rgb(185, 185, 185);
+}
+
+.size-options option {
+  background-color: rgb(160, 76, 76);
+}
