@@ -18,14 +18,20 @@
 
   <div class="sizes">
     <form action="">
-      <select name="formal" class="size-options">
-        <option value="PP"> PIZZA PEQUENA (Até 2 Sabores) </option>
+      <select name="formal" class="size-options" onchange="sabores(this.value)">
+        <option value="PP"> <!-- Utilizar a função onchange--> PIZZA PEQUENA (Até 2 Sabores) </option>
         <option value="PM"> PIZZA MÉDIA (Até 2 Sabores) </option>
         <option value="PG"> PIZZA GRANDE (Até 3 Sabores) </option>
         <option value="PGG"> PIZZA GIGANTE (Até 3 Sabores) </option>
       </select>
     </form>
   </div>
+
+  <script>
+    function sabores(valor){
+      window.location.assign("sabores.html");
+    }
+  </script>
 
   <a href="./index.html" class="back">
     <img src="./images/seta.png" alt="seta">
