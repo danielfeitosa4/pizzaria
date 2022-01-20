@@ -4,7 +4,7 @@
 }
 
 body {
-  background: linear-gradient(to right,#000000, #22130c);
+  background: linear-gradient(to right,#a5892c, #924a29);
 }
 
 /*IMAGEM PRINCIPAL*/
@@ -26,11 +26,22 @@ body {
 
 .size-options {
   padding: 1%;
-  border: 1px solid #662000;
+  border: 1px solid #88401e;
   border-radius: 5px;
-  background-color: rgb(185, 185, 185);
+  background-color: #dbc169;
 }
 
 .size-options option {
-  background-color: rgb(160, 76, 76);
+  background-color: #daba51;
+}
+
+.back {
+  display: scroll;
+  position: fixed;
+  bottom: 5px;
+  right: 10px;
+}
+
+.back img {
+  width: 32px;
 }

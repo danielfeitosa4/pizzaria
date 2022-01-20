@@ -4,14 +4,35 @@
 }
 
 body {
-  background: linear-gradient(to right,#000000, #22130c);
+  background: linear-gradient(to right,#a5892c, #924a29);
+  /*background: url(../images/pizzabg.jpg);*/
 }
 
 .logo-principal {
-  width: 500px;
   text-align: center;
 }
 
-.opcoes img {
+.opcoes {
+  text-align: center;
+}
+
+.opcoes a img {
   width: 3.5em;
+}
+
+p {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.icons {
+  display: scroll;
+  position: fixed;
+  bottom: 5px;
+  right: 194px;
+}
+
+.icons img {
+  width: 32px; 
 }
