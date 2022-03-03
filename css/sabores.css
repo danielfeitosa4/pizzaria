@@ -12,3 +12,8 @@ body {
 .back img {
   width: 32px;
 }
+
+#continue {
+  display: scroll;
+  position: fixed;
+}
