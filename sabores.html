@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/sabores.css">
   </head>
   <body>
-    <form action="">
+    <form action="" method="post">
     <table>
       <tr>
         <td class="estilo" align="center">- PIZZAS -</td>
@@ -16,7 +16,7 @@
 
       <tr>
         <td class="estilo">
-          <input type="checkbox" checked>
+          <input type="checkbox" name="sabor[]" value="sabor1" checked>
           <b>3 Queijos</b><br/>
           (Mussarela, cheddar e parmesão)
           <br/><br/>
@@ -571,6 +571,8 @@
     </button>
 
   </form>
+
+  <script src="./atendimento.js"></script>
 
   </body>
 </html>
