@@ -4,8 +4,15 @@
 }
 
 body {
-  background: linear-gradient(to right,#F4B32E, #FFD553);
   /*background: url(../images/pizzabg.jpg);*/
+  background: url("../images/fundo-pizza.jpg") no-repeat;
+  animation: move 0.8s infinite alternate;
+}
+
+@keyframes move {
+  0% {
+      background-position: 0px -5px;
+  }
 }
 
 .logo-principal {
