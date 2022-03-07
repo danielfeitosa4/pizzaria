@@ -4,9 +4,15 @@
 }
 
 body {
-  background: linear-gradient(to right,#F4B32E, #FFD553);
+  background: url("../images/fundo-pizza.jpg") no-repeat;
+  animation: move 0.8s infinite alternate;
 }
 
+@keyframes move {
+  0% {
+      background-position: 0px -5px;
+  }
+}
 /*IMAGEM PRINCIPAL*/
 .logo-principal {
   text-align: center;
@@ -26,13 +32,13 @@ body {
 
 .size-options {
   padding: 1%;
-  border: 1px solid #88401e;
+  border: 1px solid #F4B32E;
   border-radius: 5px;
-  background-color: #dbc169;
+  background-color: #FFD553;
 }
 
 .size-options option {
-  background-color: #daba51;
+  background-color: #F4B32E;
 }
 
 .back {
